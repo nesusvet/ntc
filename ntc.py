@@ -10,7 +10,7 @@ def rgb(color):
         flags=re.IGNORECASE).groups())
 
 
-def hsl(olor):
+def hsl(сolor):
     r, g, b = rgb(color)
     r = float(r)/255
     g = float(g)/255
